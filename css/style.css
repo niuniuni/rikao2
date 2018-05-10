@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body,
+html,
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  background: #ccc;
+}
+
+.wrap .header ul {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #666;
+}
+
+.wrap .header ul li img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.wrap .header ul li p {
+  text-align: center;
+}
+
+.wrap .main {
+  flex: 1;
+}
+
+.wrap .main div {
+  width: 100%;
+  height: 60%;
+  display: none;
+  text-align: center;
+  padding-top: 50%;
+}
